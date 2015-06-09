@@ -7,7 +7,8 @@ public class PowerScript : MonoBehaviour {
 		public Transform StarPrefab;
 		
 		private float nextStarTime = 0.0f;
-		private float spawnRate = 10f;
+		//controlls the spawn rate of the powerup
+		private float spawnRate = 5f;
 		
 		void Update () {
 			if (nextStarTime < Time.time)

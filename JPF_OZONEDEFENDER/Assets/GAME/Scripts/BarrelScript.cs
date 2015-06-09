@@ -10,7 +10,8 @@ public class BarrelScript : MonoBehaviour {
     }
 
 	void Update () {
-        float fallSpeed = 2 * Time.deltaTime;
+		//added fall speed to the game to make it a bit harder
+        float fallSpeed = 5 * Time.deltaTime;
         transform.position -= new Vector3(0, fallSpeed, 0);
 
 		transform.Rotate (Vector3.right * 300f * Time.deltaTime);
