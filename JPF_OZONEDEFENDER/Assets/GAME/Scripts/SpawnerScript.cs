@@ -6,7 +6,7 @@ public class SpawnerScript : MonoBehaviour {
     public Transform eggPrefab;
 
     private float nextEggTime = 0.0f;
-    private float spawnRate = 1.5f;
+    private float spawnRate = 1f;
  	
 	void Update () {
         if (nextEggTime < Time.time)
@@ -16,7 +16,7 @@ public class SpawnerScript : MonoBehaviour {
 
             //Speed up the spawnrate for the next egg
             spawnRate *= 0.98f;
-            spawnRate = Mathf.Clamp(spawnRate, 0.3f, 99f);
+            spawnRate = Mathf.Clamp(spawnRate, 0.3f, 5f);
         }
 	}
 
