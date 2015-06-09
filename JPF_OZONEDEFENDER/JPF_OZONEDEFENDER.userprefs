@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Desktop\Milan Expo\Project Files\1st left\1st left\Assets\Code\movebg.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GAME\Scripts\BarrelScript.cs">
     <Files>
-      <File FileName="..\..\Desktop\Milan Expo\Project Files\1st left\1st left\Assets\Code\movebg.cs" Line="1" Column="1" />
+      <File FileName="Assets\GAME\Scripts\BarrelScript.cs" Line="25" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
