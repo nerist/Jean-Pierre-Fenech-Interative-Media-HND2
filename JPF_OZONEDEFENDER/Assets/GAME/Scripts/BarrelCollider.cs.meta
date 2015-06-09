@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: db5348a49710ecc49a505634a810f910
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - barrelhit: {fileID: 8300000, guid: 044ba838d565209448f0edb6772b4e9f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
