@@ -10,7 +10,7 @@ public class BarrelScript : MonoBehaviour {
     }
 
 	void Update () {
-        float fallSpeed = 2 * Time.deltaTime;
+        float fallSpeed = 20 * Time.deltaTime;
         transform.position -= new Vector3(0, fallSpeed, 0);
 
 		transform.Rotate (Vector3.right * 300f * Time.deltaTime);
