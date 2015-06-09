@@ -3,14 +3,11 @@ using System.Collections;
 
 public class PowerScript : MonoBehaviour {
 
-		!!THIS NOTE WILL BE DELETED WITH A ROLLBACK!!
 		
 		public Transform StarPrefab;
 		
 		private float nextStarTime = 0.0f;
 		private float spawnRate = 10f;
-		
-		!!THIS NOTE WILL BE DELETED WITH A ROLLBACK!!
 		
 		void Update () {
 			if (nextStarTime < Time.time)
